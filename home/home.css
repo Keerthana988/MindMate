@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   background-color:#a8d2e0;
+}
+
+/*--------------------------------------------------------navbar-------------------------------------------------------*/
+#nav{
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, black, black);
+}
+#navbarNav{
+    color: white;
+}
+span{
+    font-size: 30px;
+}
+
+.navbar-brand span{
+    font-weight: bolder;
+    color: white;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff ;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#navbar-log{
+    color: white;
+}
+
+/*-------------------------------------------------------home---------------------------------------------------------*/
+ #banner{
+    position: relative;
+    background-image: linear-gradient(to right, black, black);
+    color: #fff;
+    
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+  
+}
+#p-home{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5%;
+}
+.ban-img{
+    position: relative;
+    z-index: 1000;
+    height: 100%;
+    padding-bottom: 28%;
+   
+}
+.wave{
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+} 
+#title-home{
+   text-align: justify;
+   justify-content: center;
+   padding-top: 13%;
+   font-size: 20px;
+}
+
+/*-------------------------------------------------------about us--------------------------------------------------------*/
+#aboutus{
+    padding-top: 0;
+}
+
+.section-title{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 9%;
+    color: #440c53;
+    font-weight: 500;
+}
+.paragraph{
+    padding-top: 5%;
+    font-size: 25px;
+    padding-top: 10%;
+}
+.img-fluid{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.about-title{
+    padding-top:4%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 50px;
+   color: #440c53;
+   font-weight: 700;
+}
+
+
+/*--------------------------------------------------------------features----------------------------------------------------------*/
+
+#feature-title{
+    color: #440c53;
+    font-size: 60px;
+    padding-bottom: 4%;
+    font-weight: 700;
+}
+#Feature{
+    padding-bottom: 5%;
+}
+
+#feature-img{
+    height: 50%;
+    width: 100%;
+}
+
+.feature-heading{
+    padding: 4%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #440c53;
+}
+
+#feature-log{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#feature-p{
+    font-size: 18px;
+}
+
+/*--------------------------------------------------------start------------------------------------------------------*/
+
+.start-title{
+    text-align: center;
+    align-items: center;
+    color: #440c53;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 50px;
+    font-weight: 700;
+}
+#start{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#col-card{
+    border-radius: 30px;
+    border-color: black;
+
+}
+.col{
+    height: 600px;
+}
+.card img{
+    height: 260px;
+    transition: 1s;
+}
+
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+.card-title{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 2%;
+    color: #440c53;
+}
+.card-text{
+    font-size: 25px;
+    padding-bottom: 2%;
+    text-align: center;
+    color: #440c53;
+}
+#btn-footer{
+    padding-left: 8%;
+    padding-right: 8%;
+    color: #440c53;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/*-------------------------------------------------------footer--------------------------------------------------------*/
+#footer{
+    text-align: center;
+    color: #cda0da;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 700;
+    font-size: 50px;
+   background-color: black;
+}
+.footer-title{
+    padding-bottom: 5%;
+}
+#footer-intro{
+    color: #440c53;
+    font-weight: 600;
+}
+#footer-p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding-top: 2%;
+}
+#connect{
+    color:#cda0da;
+    font-size: 25px;
+    font-weight: 600;
+}
+#s-hand{
+    justify-content: space-between;
+}
+#wave2{
+    position: relative;
+    bottom: -13%;
+}
