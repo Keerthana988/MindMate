@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+  background-size: cover;
+  border: 20px solid rgb(132, 168, 216);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+   font-family: 'Poppins', sans-serif;
+   background-image:linear-gradient(to bottom right,rgb(0, 0, 0),rgba(0, 0, 0, 0.938),rgb(0, 0, 0)); 
+}
+
+#blog{
+    color: rgb(216, 241, 240);
+    font-size: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(247, 181, 0);
+    padding-bottom: 4%;
+    padding-top: 5%;
+}
+.heading{
+    color: rgb(125, 76, 240);
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1%;
+    padding-top: 5%;
+}
+#img1{
+    height: 80%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    border: 5px solid rgb(228, 231, 63) ;
+}
+.imgtitle{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+.when{
+    font-size: 28px;
+    padding-bottom: 1%;
+    padding-top: 5%;
+    font-weight: bold;
+    color: white;
+  
+}
+span{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+#img2{
+  height: 80%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 50%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  border: 5px solid rgb(228, 231, 63) ;
+}
+.line{
+    padding-top: 3%;
+    color: rgb(247, 181, 0); 
+}
+   
+.end{
+    text-align: center;
+    color:rgb(247, 181, 0); 
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
