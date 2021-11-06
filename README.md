@@ -7,5 +7,5 @@ Through MindMate you can meditate, have some inspiration and also can know about
 
 ## Steps to view the project
 1. Clone the repository through vs code
-2. save the repository in your Device
-3. Then run this link http://127.0.0.1:5500/home/home.html in your browser 
+2. save the repository in C Device
+3. Then run this link http://C/MindMate/home/home.html in your browser 
